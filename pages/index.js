@@ -1,17 +1,8 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import { Inter } from '@next/font/google'
-// import styles from '../styles/Home.module.css'
-
-// const inter = Inter({ subsets: ['latin'] })
-
+import Header from '../components/header';
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <button class="btn w-64 rounded-full">Button</button>
+    <div >
+      <Header></Header>
     </div>
   )
 }
