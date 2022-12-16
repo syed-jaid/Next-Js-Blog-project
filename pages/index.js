@@ -1,8 +1,8 @@
-import Header from '../components/header';
+import Formet from '../Layout/formet';
 export default function Home() {
   return (
     <div >
-      <Header></Header>
+      <Formet></Formet>
     </div>
   )
 }
