@@ -8,7 +8,6 @@ const section1 = () => {
     SwiperCore.use([Autoplay])
     return (
         <div>
-
             <Swiper
                 slidesPerView={1}
                 loop={true}
@@ -71,7 +70,7 @@ function slider3() {
                 <img src={'https://i.ibb.co/nwrvjJS/960x0.jpg'} className="lg:mr-[100px] w-[522px] rounded-lg shadow-2xl" />
                 <div>
                     <p><span className="text-[#ee8eb0] font-semibold">New Technology</span>-<small>22/12/2022</small></p>
-                    <h1 className="text-5xl font-bold">What is blockchain and how does it work ?</h1>
+                    <h1 className="text-5xl font-bold">What is Blockchain and how does it work ?</h1>
                     <p className="py-6">What is a blockchain in simple words?
                         Blockchain defined: Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding).</p>
                     <Auther></Auther>
