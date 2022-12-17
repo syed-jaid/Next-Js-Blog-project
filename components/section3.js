@@ -7,7 +7,7 @@ export default function section3() {
     SwiperCore.use([Autoplay])
     return (
         <div>
-            <h1 class="text-3xl mb-14 font-bold text-center">
+            <h1 class="text-3xl mt-20 font-bold text-center">
                 Popular Posts
             </h1>
             <div>

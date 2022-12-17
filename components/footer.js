@@ -2,7 +2,7 @@
 const footer = () => {
     return (
         <div>
-            <footer className="footer p-4 sm:p-10 bg-base-200 text-base-content">
+            <footer className="footer p-4 mt-[50px] sm:p-10 bg-base-200 text-base-content">
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
@@ -34,6 +34,11 @@ const footer = () => {
                             <button className="btn btn-primary absolute top-0 right-[40px] sm:right-0 rounded-l-none">Subscribe</button>
                         </div>
                     </div>
+                </div>
+            </footer>
+            <footer className="footer footer-center p-4 bg-base-200 text-base-content">
+                <div>
+                    <p>Copyright © 2022 - All right reserved by SyedJaidAhmed</p>
                 </div>
             </footer>
         </div>
