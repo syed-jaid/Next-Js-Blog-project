@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-  /* --max-width: 1100px; */
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -78,6 +77,7 @@ body {
   color: rbg(--foreground-rgb);
   max-width: 1200px;
   margin: 0 auto 0 auto;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
